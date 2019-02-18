@@ -1,0 +1,120 @@
+/*-------------------------------------------- General Layout */
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+body {
+    font-family: calibri, serif;
+    font-size: 16px;
+}
+
+/*-------------------------------------------- Header */
+
+header {
+    z-index: 1;
+}
+
+.navbar-inverse {
+    background-color: #f5f5f5;
+}
+
+nav.navbar.navbar-inverse {
+    margin-bottom: 0;
+    border-radius: 0px;
+    border: none;
+}
+
+a.navbar-brand {
+    font-weight: 600;
+    word-spacing: 3px;
+}
+
+/* Header - Hover & Active section */
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #286090;
+    background-color: transparent;
+    font-style: italic;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #c78021e0;
+    background-color: transparent;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+    color: #9d9d9d;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* -------------------------------------------- Footer */
+
+footer {
+    background-color: #f5f5f5;
+    min-height: 50px;
+    margin: 0;
+    z-index: 1;
+}
+
+.footer-sub {
+    color: #777;
+    word-spacing: 3px;
+    text-align: center;
+    vertical-align: middle;
+    top: 15px;
+}
+
+.footer-sub>a {
+    color: #777;
+}
+
+.social-links li a i {
+    color: #777;
+    background: #8f8f8f85;
+    font-size: 20px;
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+    border-radius: 50%;
+}
+
+/* Footer - Hover */
+
+.social-links li a i:hover {
+    color: #c78021e0;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+}
+
+
+/*-------------------------------------------- Section 1 - Home Page */
+
+.home-page {
+    background: url("../images/bg1-1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
