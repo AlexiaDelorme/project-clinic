@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Veterinary Clinic Tourrettes-sur-loup</title>
+	<title>Veterinary Clinic Tourrettes</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
@@ -14,6 +14,7 @@
 
 <body>
 
+	<!-- HEADER -->
 	<header>
 
 		<nav class="navbar navbar-inverse">
@@ -44,15 +45,16 @@
 
 	</header>
 
+	<!-- HOME -->
 	<section class="container-fluid home-page">
 		<div class="wrapper-center">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="home-header"> Veterinary Clinic of Tourrettes-sur-loup</h1>
+					<h1 class="home-header"> Veterinary Clinic of Tourrettes</h1>
 				</div>
 				<div class="col-md-12">
-					<p>Taking care of your pet is our priority 24/24 7/7
-						<p>
+					<h3>- Taking care of your pet is our priority 24/24 7/7 -
+						<h3>
 				</div>
 			</div>
 		</div>
@@ -110,78 +112,57 @@
 	</section>
 	----------------------------------------------------------------->
 
-
+	<!-- SERVICES -->
 	<section id="services" class="container-fluid services-page">
 		<div class="wrapper-center">
-			<div class="row">
 
-				<div class="col-xs-12">
-					<h2 class="services-header">Services</h2>
-				</div>
+			<h2 class="services-header">Services</h2>
 
-			</div>
-
-			<div class="row">
-
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-						Urgent Care
-					</div>
-
-				</div>
-
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-					<p>Surgery</p>	
-					</div>
-
-				</div>
-
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-						 <p>Cancerology</p>
-					</div>
-
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-					<p>Dermatology</p>	
-					</div>
-
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-					<p>Preventative Care</p>	
-					</div>
-
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-2">
-
-					<div class="box-set">
-					<p>Internal Medicine</p>	
-					</div>
-
-				</div>
-
-			</div>
+			<ul>
+				<li class="box-services"> Urgent Care</li>
+				<li class="box-services"> Surgery</li>
+				<li class="box-services"> Cancerology</li>
+				<li class="box-services">Dermatology </li>
+				<li class="box-services">Preventative Care </li>
+				<li class="box-services"> Internal Medicine</li>
+			</ul>
+		</div>
 	</section>
 
-
+	<!-- DOCTOR -->
 	<section id="doctor" class="container-fluid doctor-page">
-		doctor
+		
+<!-- CODE TAKEN FROM EMBED GOOGLE MAPS -->
+
+	
+
 	</section>
 
-
+	<!-- ABOUT US -->
 	<section id="about" class="container-fluid about-page">
-		about
+		<div class="wrapper-center">
+			<ul>
+				<li class="box-about">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<h4> TSL Veterinary Clinic</h4>
+					<p>Route de La Grande Bastide <br> 83440 Tourrettes - FRANCE</p>
+				</li>
+				<li class="box-about">
+					<i class="fa fa-plus-square" aria-hidden="true"></i>
+					<h4> Emergency Services</h4>
+					<p>Urgent Cares 24/24 7/7 <br> Call us: +33 (0)6 64 64 55 73</p>
+				</li>
+				<li class="box-about">
+					<i class="fa fa-stethoscope" aria-hidden="true"></i>
+					<h4> Consultations</h4>
+					<p>Monday to Saturday 10am - 7pm <br></p>
+					<p><button class="btn btn-lg" data-toggle='modal' data-target='#AppointRequest'>Request Appointment</button></p>
+				</li>
+			</ul>
+		</div>
 	</section>
 
-
+	<!-- CONTACT US -->
 	<section id="contact" class="container-fluid contact-page">
 
 		<div class="row">
@@ -194,7 +175,7 @@
 					<h2 class="contact-header"> Contact US !</h3>
 						<div class="center-form">
 							<form>
-								<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+								<input type="text" name="name" class="form-control" id="fullname" placeholder="Full Name" required/>
 								<input type="number" name="phone" class="form-control" id="phone" placeholder="Phone" required/>
 								<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
 								<textarea rows="8" name="projectsummary" class="form-control" id="projectsummary" placeholder="Message" required> </textarea>
@@ -208,6 +189,7 @@
 
 	</section>
 
+	<!-- FOOTER -->
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="hidden-xs hidden-sm col-md-3 footer-sub">
@@ -221,14 +203,48 @@
 			</div>
 			<div class="col-xs-6 col-sm-4 col-md-3 footer-sub">
 				<ul class="list-inline social-links">
-					<li> <a target="_blank" href="#"> <i class="fa fa-facebook" aria-hidden="true"> </i> </a> </li>
-					<li> <a target="_blank" href="#"> <i class="fa fa-twitter" aria-hidden="true"> </i> </a> </li>
+					<li> <a target="_blank" href="https://fr-fr.facebook.com/"> <i class="fa fa-facebook" aria-hidden="true"> </i> </a> </li>
+					<li> <a target="_blank" href="https://twitter.com/login"> <i class="fa fa-twitter" aria-hidden="true"> </i> </a> </li>
 				</ul>
 			</div>
 		</div>
 
 	</footer>
-	
+
+	<!-- MODAL -->
+	<div class="modal fade" id="AppointRequest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel"> Make Appointment Request</h4>
+					<p class="form-notice">We'll call you back to set the appointment within 24h - <b>If your request concerns an Emergency please directly reach out to us: +33 (0)6 64 64 55 73</b></p>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<div>
+								<label for="fullname">Full Name</label>
+								<input type="text" class="form-control" id="fullname" placeholder="Full Name" required/>
+							</div>
+							<div>
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email" placeholder="Email" required/>
+								<p class="form-notice">We won't share your email address with anyone</p>
+							</div>
+							<div>
+								<label for="phone">Phone Number</label>
+								<input type="number" class="form-control" id="phone" placeholder="33 6 XX XX XX XX" required/>
+							</div>
+						</div>
+						<button type="submit" class="btn btn-success">Send Request</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- JQUERY -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
