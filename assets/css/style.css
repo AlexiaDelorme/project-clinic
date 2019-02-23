@@ -98,13 +98,13 @@ a.navbar-brand {
 footer {
     background-color: #f5f5f5;
     min-height: 50px;
-    
+
     position: fixed;
     z-index: 1;
     width: 100vw;
     margin-bottom: 0px;
     bottom: 0px;
-    
+
     font-size: 13px;
 }
 
@@ -222,7 +222,7 @@ footer {
 .doctor-page {
     background-color: #777;
     overflow: auto;
-    padding:30px 15px;
+    padding: 30px 15px;
 }
 
 .block-work {
@@ -234,7 +234,7 @@ footer {
     text-align: center;
     font-weight: 400;
     font-size: 20px;
-    color:#f5f5f5;
+    color: #f5f5f5;
 }
 
 img.image-veto {
@@ -387,6 +387,8 @@ button.btn.btn-lg.btn-back:hover {
     color: #f5f5f5;
     text-align: center;
 
+    overflow: auto;
+
 }
 
 .bg-space {
@@ -394,12 +396,12 @@ button.btn.btn-lg.btn-back:hover {
     height: 100vh;
 }
 
-.center-form {
-    width: 100%;
-}
-
 .wrapper-form {
     margin-top: 15vh;
+}
+
+.center-form {
+    width: 100%;
 }
 
 .center-form form input,
@@ -440,11 +442,18 @@ button.btn.btn-success {
 /*-------------------------------------------- Media Queries */
 
 @media (min-width:594px) {
-    footer{
-        font-size:16px;
+    footer {
+        font-size: 16px;
     }
     .wrapper-center-about-page {
         margin-top: 50vh;
         transform: translateY(-50%);
+    }
+}
+
+@media (max-width:320px) {
+    .wrapper-form {
+        margin-top: 20px;
+        margin-bottom:20px;
     }
 }
