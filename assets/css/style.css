@@ -2,11 +2,15 @@
 
 /* Font-Family settings */
 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700,800,900');
 
 body {
     font-family: 'Source Sans Pro', calibri;
     font-size: 16px;
+}
+
+ul {
+    padding-left: 0;
 }
 
 /* Titles for all sections */
@@ -94,12 +98,14 @@ a.navbar-brand {
 footer {
     background-color: #f5f5f5;
     min-height: 50px;
-
+    
     position: fixed;
     z-index: 1;
     width: 100vw;
     margin-bottom: 0px;
     bottom: 0px;
+    
+    font-size: 13px;
 }
 
 .footer-sub {
@@ -107,7 +113,11 @@ footer {
     word-spacing: 3px;
     text-align: center;
     vertical-align: middle;
-    top: 15px;
+    top: 12px;
+}
+
+.adj-padding {
+    padding-top: 5px;
 }
 
 .footer-sub>a {
@@ -210,23 +220,40 @@ footer {
 /*-------------------------------------------- Section 3 - Docor */
 
 .doctor-page {
-    height: 100vh;
-    width: 100vw;
     background-color: #777;
+    overflow: auto;
+    padding:30px 15px;
+}
 
+.block-work {
+    display: block;
+    text-align: center;
 }
 
 .paragraph-work {
-    display: block;
     text-align: center;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 img.image-veto {
     height: 200px;
     width: auto;
+    border: 2px solid black;
+    background-color: #ffffff;
+    margin: 20px 0;
 }
 
-/* NOT MY CODE - TO BE MODIFIED  */
+/* Styling the timeline */
+
+h5 {
+    margin: 5px 0;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Code for a Timeline */
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -264,11 +291,10 @@ img.image-veto {
     background: #fafafa;
 }
 
-.history-items {
+.timeline-div {
     margin-bottom: 30px;
 }
 
-/* END NOT MY CODE - TO BE MODIFIED  */
 
 /*-------------------------------------------- Section 4 - About Us */
 
@@ -284,6 +310,8 @@ img.image-veto {
     color: #777;
 
     overflow: auto;
+
+    text-align: center;
 
 }
 
@@ -406,4 +434,16 @@ button.btn.btn-lg.btn-back:hover {
 button.btn.btn-success {
     border: none;
     background-color: #286090;
+}
+
+/*-------------------------------------------- Media Queries */
+
+@media (min-width:768px) {
+    footer{
+        font-size:16px;
+    }
+    .wrapper-center-about-page {
+        margin-top: 50vh;
+        transform: translateY(-50%);
+    }
 }
