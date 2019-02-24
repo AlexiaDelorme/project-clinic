@@ -15,21 +15,31 @@ ul {
 
 /* Titles for all sections */
 
-.home-header,
-.services-header,
-.contact-header {
-    font-size: 40px;
-    text-shadow: 10px 0 15px black;
+h1,
+h2 {
+    font-size: 32px;
     text-transform: uppercase;
     margin: 20px auto 10px;
     padding-bottom: 10px;
     font-weight: 700;
     letter-spacing: 2px;
+}
+
+.doctor-header,
+.contact-header,
+.about-header,
+.maps-header {
+    color: #333;
+}
+
+.home-header,
+.services-header {
     color: #f5f5f5;
 }
 
 .sub-header {
     letter-spacing: 1px;
+    color: #f5f5f5;
 }
 
 /*-------------------------------------------- Header */
@@ -45,6 +55,10 @@ nav.navbar.navbar-inverse {
     color: #777;
 }
 
+.navbar-inverse .navbar-brand {
+    color: #777;
+}
+
 nav.navbar.navbar-inverse {
     margin-bottom: 0;
     border-radius: 0px;
@@ -56,15 +70,23 @@ a.navbar-brand {
     word-spacing: 3px;
 }
 
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #777;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
 
 /* Header - Hover & Active section */
 
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #286090;
+    color: black;
     background-color: transparent;
-    font-style: italic;
+    font-style: bold;
     transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
     -moz-transition: all 0.6s ease-in-out;
@@ -81,15 +103,10 @@ a.navbar-brand {
     -moz-transition: all 0.6s ease-in-out;
 }
 
-.navbar-inverse .navbar-toggle {
-    border-color: transparent;
-    color: #77777773;
-}
 
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
-    background-color: #77777773;
-    color: white;
+    background-color: #ccc;
 }
 
 
@@ -99,7 +116,6 @@ footer {
     background-color: #f5f5f5;
     min-height: 50px;
 
-    position: fixed;
     z-index: 1;
     width: 100vw;
     margin-bottom: 0px;
@@ -154,19 +170,6 @@ footer {
 
 /*-------------------------------------------- Section 1 - Home Page */
 
-.home-page {
-    background: url("../images/bg1-1.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    height: 100vh;
-    width: 100vw;
-    color: #f5f5f5;
-
-}
-
 .wrapper-center {
     margin-top: 50vh;
     transform: translateY(-50%);
@@ -177,7 +180,7 @@ footer {
 /*-------------------------------------------- Section 2 - Services */
 
 .services-page {
-    background: url("../images/bg2.jpg") no-repeat center center fixed;
+    background: url("../images/bg2.jpg") no-repeat center center fixed, #999;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,7 +195,7 @@ footer {
 
 .box-services {
     background-color: #fff;
-    color: #777;
+    color: #333;
 
     margin: 10px;
     padding: 5px 0;
@@ -220,7 +223,7 @@ footer {
 /*-------------------------------------------- Section 3 - Docor */
 
 .doctor-page {
-    background-color: #777;
+    background-color: #5f5d5d4d;
     overflow: auto;
     padding: 30px 15px;
 }
@@ -233,8 +236,8 @@ footer {
 .paragraph-work {
     text-align: center;
     font-weight: 400;
-    font-size: 20px;
-    color: #f5f5f5;
+    font-size: 18px;
+    color: #333;
 }
 
 img.image-veto {
@@ -250,7 +253,7 @@ img.image-veto {
 h5 {
     margin: 5px 0;
     font-size: 20px;
-    color: #333;
+    color: #555;
     font-weight: bold;
 }
 
@@ -259,7 +262,7 @@ h5 {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #333;
     border-left: 1px solid;
 }
 
@@ -289,7 +292,7 @@ h5 {
     left: -6px;
     border-radius: 12px;
     content: ' ';
-    background: #fafafa;
+    background: #333;
 }
 
 .timeline-div {
@@ -300,7 +303,7 @@ h5 {
 /*-------------------------------------------- Section 4 - About Us */
 
 .about-page {
-    background: url("../images/bg4.jpg") no-repeat center center fixed;
+    background: url("../images/bg4.jpg") no-repeat center center fixed, #999;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -311,7 +314,6 @@ h5 {
     color: #777;
 
     overflow: auto;
-
     text-align: center;
 
 }
@@ -350,6 +352,16 @@ h4 {
     font-size: 40px;
 }
 
+.about-page i.fa.fa-envelope,
+.about-page i.fa.fa-phone {
+    font-size: 16px;
+}
+
+.about-page ul li a {
+    text-decoration: none;
+    color: #777;
+}
+
 button.btn.btn-lg {
     font-size: 13px;
     background-color: #333;
@@ -365,7 +377,8 @@ button.btn.btn-lg.btn-back {
 }
 
 button.btn.btn-lg:hover,
-button.btn.btn-lg.btn-back:hover {
+button.btn.btn-lg.btn-back:hover,
+.about-page ul li a:hover {
     color: #c78021e0;
     transition: all 0.6s ease-in-out;
     -webkit-transition: all 0.6s ease-in-out;
@@ -376,28 +389,16 @@ button.btn.btn-lg.btn-back:hover {
 /*-------------------------------------------- Section 5 - Contact Us */
 
 .contact-page {
-    background: url("../images/bg5.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     height: 100vh;
     width: 100vw;
+    background-color: #5f5d5d4d;
     color: #f5f5f5;
     text-align: center;
-
     overflow: auto;
-
-}
-
-.bg-space {
-    background-color: transparent;
-    height: 100vh;
 }
 
 .wrapper-form {
-    margin-top: 15vh;
+    margin-top: 20vh;
 }
 
 .center-form {
@@ -454,6 +455,6 @@ button.btn.btn-success {
 @media (max-width:320px) {
     .wrapper-form {
         margin-top: 20px;
-        margin-bottom:20px;
+        margin-bottom: 20px;
     }
 }
