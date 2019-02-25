@@ -9,8 +9,18 @@ body {
     font-size: 16px;
 }
 
+.container-fluid {
+    padding: 0 30px;
+}
+
 ul {
     padding-left: 0;
+}
+
+.wrapper-center {
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 /* Titles for all sections */
@@ -25,13 +35,13 @@ h2 {
     letter-spacing: 2px;
 }
 
-.doctor-header,
-.contact-header,
 .about-header,
 .maps-header {
-    color: #333;
+    color: rgba(17, 64, 83, 1);
 }
 
+.doc-header,
+.contact-header,
 .home-header,
 .services-header {
     color: #f5f5f5;
@@ -52,11 +62,14 @@ nav.navbar.navbar-inverse {
 
 .navbar-inverse {
     background-color: #f5f5f5;
-    color: #777;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #777;
+    color: rgba(17, 64, 83, 0.9);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgba(17, 64, 83, 0.9);
 }
 
 nav.navbar.navbar-inverse {
@@ -71,7 +84,7 @@ a.navbar-brand {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #777;
+    background-color: rgba(17, 64, 83, 0.9);
 }
 
 .navbar-inverse .navbar-toggle {
@@ -84,7 +97,7 @@ a.navbar-brand {
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: black;
+    color: #777;
     background-color: transparent;
     font-style: bold;
     transition: all 0.6s ease-in-out;
@@ -125,7 +138,7 @@ footer {
 }
 
 .footer-sub {
-    color: #777;
+    color: rgba(17, 64, 83, 0.9);
     word-spacing: 3px;
     text-align: center;
     vertical-align: middle;
@@ -137,12 +150,12 @@ footer {
 }
 
 .footer-sub>a {
-    color: #777;
+    color: rgba(17, 64, 83, 0.9);
 }
 
 .social-links li a i {
-    color: #777;
-    background: #8f8f8f85;
+    color: rgba(17, 64, 83, 1);
+    background: rgba(17, 64, 83, 0.4);
     font-size: 20px;
     width: 30px;
     height: 30px;
@@ -170,10 +183,21 @@ footer {
 
 /*-------------------------------------------- Section 1 - Home Page */
 
-.wrapper-center {
-    margin-top: 50vh;
-    transform: translateY(-50%);
-    text-align: center;
+.home-page {
+    background-color: #999;
+}
+
+
+.carousel-caption {
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+.carousel-inner>.item>img {
+    background-size: cover;
+    height: 100vh;
+    min-width: 100vw;
+    max-width: none;
 }
 
 
@@ -223,7 +247,7 @@ footer {
 /*-------------------------------------------- Section 3 - Docor */
 
 .doctor-page {
-    background-color: #5f5d5d4d;
+    background-color: rgba(17, 64, 83, 0.9);
     overflow: auto;
     padding: 30px 15px;
 }
@@ -234,16 +258,16 @@ footer {
 }
 
 .paragraph-work {
-    text-align: center;
+    text-align: left;
     font-weight: 400;
     font-size: 18px;
-    color: #333;
+    color: #fafafa;
 }
 
 img.image-veto {
     height: 200px;
     width: auto;
-    border: 5px solid #f5f5f5;
+    border: 5px solid #fafafa;
     background-color: #ffffff;
     margin: 20px 0;
 }
@@ -253,7 +277,7 @@ img.image-veto {
 h5 {
     margin: 5px 0;
     font-size: 20px;
-    color: #555;
+    color: #999;
     font-weight: bold;
 }
 
@@ -262,7 +286,7 @@ h5 {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #333;
+    color: #fafafa;
     border-left: 1px solid;
 }
 
@@ -292,7 +316,7 @@ h5 {
     left: -6px;
     border-radius: 12px;
     content: ' ';
-    background: #333;
+    background: #fafafa;
 }
 
 .timeline-div {
@@ -389,12 +413,30 @@ button.btn.btn-lg.btn-back:hover,
 /*-------------------------------------------- Section 5 - Contact Us */
 
 .contact-page {
+    background: url("../images/bg5.jpg") no-repeat center center fixed, #999;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     height: 100vh;
     width: 100vw;
-    background-color: #5f5d5d4d;
     color: #f5f5f5;
     text-align: center;
     overflow: auto;
+}
+
+.bg-layer {
+    background-color: rgba(17, 64, 83, 0.9);
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.bg-space {
+    background-color: transparent;
+    height: 100vh;
 }
 
 .wrapper-form {
