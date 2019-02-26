@@ -185,13 +185,13 @@ footer {
 .carousel-caption {
     top: 60%;
     transform: translateY(-60%);
+    text-shadow: none;
 }
 
 .carousel-inner>.item>img {
-    background-size: cover;
     height: 100vh;
-    min-width: 100vw;
     max-width: none;
+    
 }
 
 .carousel-indicators {
