@@ -1,3 +1,0 @@
-//Adaptation of the tutoriel:
-//
-
