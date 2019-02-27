@@ -1,4 +1,4 @@
-Veterinary Clinic of Tourrettes
+<h1> Veterinary Clinic of Tourrettes </h1>
 
 My project gives visibility to a potential prospective Veterinary Clinic for my sister who is a Doctor in Veterinary Medecine. 
 It provides information on the services provided by this clinic, the location, information about the studies and experiences about the Doctor and functionalities to contact the clinic either by a contact form (that can be used by pharmaceutical companies for instance), a request form (for clients wanting to book an appointment) or directly by phone and/or emails.  The website has both English and French versions as there are a lot of English people established in the South of France and tourists during the summer time.
