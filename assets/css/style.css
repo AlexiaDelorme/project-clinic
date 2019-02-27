@@ -7,6 +7,8 @@
 body {
     font-family: 'Source Sans Pro', calibri;
     font-size: 16px;
+    overflow-y: scroll;
+    position: relative;
 }
 
 .container-fluid {
@@ -94,12 +96,14 @@ a.navbar-brand {
 
 /* Header - Hover & Active section */
 
-.font-color.scrolled {
-    color: #777;
-    background-color: transparent;
-    transition: all 0.6s ease-in-out;
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #f5f5f5;
+    background-color: rgba(17, 64, 83, 0.8);
+    transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
 }
 
 .navbar-inverse .navbar-brand:hover,
@@ -191,7 +195,7 @@ footer {
 .carousel-inner>.item>img {
     height: 100vh;
     max-width: none;
-    
+
 }
 
 .carousel-indicators {

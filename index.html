@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar">
 
 	<!-- HEADER -->
 	<header>
@@ -29,8 +29,8 @@
 					<a class="navbar-brand" href="index.html">	<i class="fa fa-ravelry" aria-hidden="true"></i> TSL Veterinary Clinic </a>
 				</div>
 				<div class="collapse navbar-collapse" id="navbar">
-					<ul class="nav navbar-nav navbar-right">
-						<li class=""><a href="#">Home</a></li>
+					<ul class="nav nav-tabs navbar-nav navbar-right" role="tablist">
+						<li class="active"><a href="#home">Home</a></li>
 						<li><a href="#services">Services</a></li>
 						<li><a href="#doctor">Doctor</a></li>
 						<li><a href="#about">About Us</a></li>
@@ -44,7 +44,7 @@
 	</header>
 
 	<!-- HOME -->
-	<section class="home-page">
+	<section id ="home" class="home-page">
 
 		<div id="clinicarousel" class="carousel slide" data-ride="carousel">
 
