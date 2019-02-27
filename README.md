@@ -50,21 +50,29 @@ You can also access to my source code directly through the repository I have cre
 <h2>Credits</h2>
 
 <h3>Content</h3>
-•	The content was entirely written by myself and reviewed by my sister regarding the accuracy of information provided in the “About our Doctor” section. 
+The content was entirely written by myself and reviewed by my sister regarding the accuracy of information provided in the “About our Doctor” section. 
 
 <h3>Media</h3>
-•	All the photos used in the “home”, “services” and “contact” sections are from this free pictures library : https://unsplash.com/. 
-•	The pictures used in the “doctor” and “about us” (background with the mountains) are personal pictures taken by myself.
-•	All the glyph-icons I used were taken on Font Awesome: https://fontawesome.com/v4.7.0/icons/ 
-•	For my font style I used the Google Font library: https://fonts.google.com/
+<ul>
+  <li>All the photos used in the “home”, “services” and “contact” sections are from this free pictures library : https://unsplash.com/. </li>
+  <li>The pictures used in the “doctor” and “about us” (background with the mountains) are personal pictures taken by myself.</li>
+  <li>All the glyph-icons I used were taken on Font Awesome: https://fontawesome.com/v4.7.0/icons/ </li>
+  <li>For my font style I used the Google Font library: https://fonts.google.com/</li>
+</ul>
 
 <h3>Acknowledgements</h3>
-•	In terms of general structure of my project I received inspiration mostly from the Sample Project (Grade 5) – Portfolio of Hayley Schaffer.
-•	Regarding the background positioning, I used the recommendations provided in this link: https://css-tricks.com/perfect-full-page-background-image/.
-•	The implementation of my carousel was done thanks to the tutorial provided by W3 Schools: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp.
-•	In terms of general layout I received inspiration mostly from this website – especially the use of the classy blue font-color : http://athospartners.com.
-•	In terms of benchmark I also researched websites of clinics located in France (and specialized in Emergency Services). I was therefore able to structure my content after studying the following websites:
-o	http://www.urgences-veterinaires-delta-06.fr/  
-o	https://www.fregis.com 
-•	For the “Doctor” section, I built the timeline (without almost any modifications as it rendered pretty well on my section) by using the code implemented during the Mini Project (building a CV website) at the end of the User Centric module. 
-•	To embed the google maps in the “about us” section I used the code generated in the Embed Google Maps generator: https://embedgooglemaps.com/en/. I added minor modifications in terms of position so that it rendered better on my website. 
+<ul>
+  <li>In terms of general structure of my project I received inspiration mostly from the Sample Project (Grade 5) – Portfolio of Hayley Schaffer. </li>
+  <li> Regarding the background positioning, I used the recommendations provided in this link: https://css-tricks.com/perfect-full-page-background-image/.</li>
+  <li>The implementation of my carousel was done thanks to the tutorial provided by W3 Schools: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp. </li>
+  <li> In terms of general layout I received inspiration mostly from this website – especially the use of the classy blue font-color : http://athospartners.com. </li>
+  <li>In terms of benchmark I also researched websites of clinics located in France (and specialized in Emergency Services). I was therefore able to structure my content after studying the following websites:
+    <ul>
+      <li> http://www.urgences-veterinaires-delta-06.fr/  </li>
+      <li>https://www.fregis.com </li>
+    </ul>
+  </li>
+  <li>For the “Doctor” section, I built the timeline (without almost any modifications as it rendered pretty well on my section) by using the code implemented during the Mini Project (building a CV website) at the end of the User Centric module. </li>
+  <li>To embed the google maps in the “about us” section I used the code generated in the Embed Google Maps generator: https://embedgooglemaps.com/en/. I added minor modifications in terms of position so that it rendered better on my website. </li>
+</ul>
+
