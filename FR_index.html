@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -112,9 +112,14 @@
     <section id="doctor" class="container-fluid doctor-page">
 
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-hidden col-sm-12 col-md-5">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-7">
                 <h2 class="doc-header text-center"> À propos de notre Docteur</h2>
             </div>
+
         </div>
 
         <div class="row">
@@ -122,19 +127,19 @@
             <div class="col-xs-12 col-sm-12 col-md-5">
                 <div class="timeline-div">
                     <div class="timeline-item" dates="09/2008 - 12/2011">
-                        <h5>Faculté de Sciences Natuelles à l'Université Paris-Sud</h4>
+                        <h5>Faculté de Sciences Natuelles à l'Université Paris-Sud</h5>
                             <p>Licence en Biologie</p>
                     </div>
                     <div class="timeline-item" dates="09/2011 - 12/2016">
-                        <h5>Université de Médecine Vétérinaire de Budapest</h4>
+                        <h5>Université de Médecine Vétérinaire de Budapest</h5>
                             <p>Doctorat en Médecine Vétérinaire</p>
                     </div>
                     <div class="timeline-item" dates="06/2017 - 06/2018">
-                        <h5>Médecine Interne - Petits et gros animaux</h4>
+                        <h5>Médecine Interne - Petits et gros animaux</h5>
                             <p>Internat</p>
                     </div>
                     <div class="timeline-item" dates="11/2018 - Present">
-                        <h5>Clinique Vétérinaire TSL - Petits animaux</h4>
+                        <h5>Clinique Vétérinaire TSL - Petits animaux</h5>
                             <p>Vétérinaire Libéral</p>
                     </div>
                 </div>
@@ -162,20 +167,20 @@
             <ul>
                 <li class="box-about">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <h4> Clinique Vétérinaire TSL</h4>
+                    <h4 class="box-title"> Clinique Vétérinaire TSL</h4>
                     <p>Route de La Grande Bastide <br> 83440 Tourrettes - FRANCE</p>
                     <a href="FR_maps.html"> <button class="btn btn-lg"> Voir la Carte</button> </a>
                 </li>
                 <li class="box-about">
                     <i class="fa fa-plus-square" aria-hidden="true"></i>
-                    <h4> Urgences</h4>
+                    <h4 class="box-title"> Urgences</h4>
                     <p>Service ouvert 24h/24 7j/7 </p>
                     <a href="tel:0033664645573"> <i class="fa fa-phone" aria-hidden="true"></i> +33 (0)6 64 64 55 73</a> <br>
                     <a class="mailto" href="mailto:tsl-vets@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i> tsl-vets@gmail.com </a>
                 </li>
                 <li class="box-about">
                     <i class="fa fa-stethoscope" aria-hidden="true"></i>
-                    <h4> Consultations</h4>
+                    <h4 class="box-title"> Consultations</h4>
                     <p>Du Lundi au Samedi de 10h à 19h <br> <br></p>
                     <p><button class="btn btn-lg" data-toggle='modal' data-target='#AppointRequest'>Prendre RDV</button></p>
                 </li>
@@ -196,9 +201,9 @@
                         <h2 class="contact-header"> Nous contacter </h2>
                         <div class="center-form">
                             <form>
-                                <input type="text" name="name" class="form-control" id="fullname" placeholder="Prénom NOM" required/>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Prénom NOM" required/>
                                 <input type="number" name="phone" class="form-control" id="phone" placeholder="Numéro de téléphone" required/>
-                                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required/>
                                 <textarea rows="8" name="projectsummary" class="form-control" id="projectsummary" placeholder="Message" required> </textarea>
                                 <button type="submit" class="btn btn-secondary center-block"> Envoyer </button>
                             </form>
@@ -250,13 +255,13 @@
                                 <input type="text" class="form-control" id="fullname" placeholder="Prénom NOM" required/>
                             </div>
                             <div>
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email" required/>
+                                <label for="email-2">Email</label>
+                                <input type="email" class="form-control" id="email-2" placeholder="Email" required/>
                                 <p class="form-notice">Nous ne partagerons en aucun cas vos données</p>
                             </div>
                             <div>
                                 <label for="phone">Numéro de téléphone</label>
-                                <input type="number" class="form-control" id="phone" placeholder="06 XX XX XX XX" required/>
+                                <input type="number" class="form-control" id="phone-2" placeholder="06 XX XX XX XX" required/>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-success">Envoyer</button>
