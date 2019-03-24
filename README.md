@@ -71,7 +71,7 @@ By clicking the two glyphicons of twitter and facebook, a new tab (by using the 
 </p>
 
 <p>
-Compatibility & Responsiveness 
+<br> Compatibility & Responsiveness 
 
 This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
 <ul>
@@ -83,7 +83,8 @@ This site was tested across the following browsers to ensure that all functional
 </ul>
 
 I also was able to test the responsiveness of the webiste by testing it directly on my Phone (Huawei P9 Lite) and thanks to Chrome Developer tool, I tested my website on the following devices:
-<li> Galaxy S5 </li>
+<ul>
+  <li> Galaxy S5 </li>
   <li> Pixel 2 </li>
   <li> Pixel 2 XL </li>
   <li> iPhone 5/SE </li>
@@ -92,6 +93,7 @@ I also was able to test the responsiveness of the webiste by testing it directly
   <li> iPhone X </li>
   <li> iPad </li>
   <li> iPad Pro </li>
+</ul>
 
 Following this testing, I realised that the "About Us" section was not rendering well. 
 Indeed at first, I added "overflow: auto" but this was a poor user experience for devices when scrolling this section. 
@@ -122,7 +124,7 @@ The content was entirely written by myself and reviewed by my sister regarding t
   <li>In terms of general structure of my project I received inspiration mostly from the Sample Project (Grade 5) – Portfolio of Hayley Schaffer. </li>
   <li> Regarding the background positioning, I used the recommendations provided in this link: <a target="_blank" href="https://css-tricks.com/perfect-full-page-background-image/">https://css-tricks.com/perfect-full-page-background-image/</a>. </li>
   <li>The implementation of my carousel was done thanks to the tutorial provided by W3 Schools: <a target="_blank" href="https://www.w3schools.com/bootstrap/bootstrap_carousel.asp">https://www.w3schools.com/bootstrap/bootstrap_carousel.asp</a>. </li>
-  <li> In terms of general layout I received inspiration mostly from the website of <li> <a target="_blank" href="https://www.veterinaire-alliance.fr/ ">this clinic</a></li> located in France as well as this webiste (especially the use of the classy blue font-color) : <a target="_blank" href="http://athospartners.com">http://athospartners.com</a>.</li>
+  <li> In terms of general layout I received inspiration mostly from the website of <a target="_blank" href="https://www.veterinaire-alliance.fr/ ">this clinic</a> located in France as well as this webiste (especially the use of the classy blue font-color) : <a target="_blank" href="http://athospartners.com">http://athospartners.com</a>.</li>
   <li>In terms of benchmark I also researched websites of clinics located in France (and specialized in Emergency Services). I was therefore able to structure my content after studying the following websites:
     <ul>
     <li> <a target="_blank" href="https://www.fregis.com">https://www.fregis.com</a></li>
