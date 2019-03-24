@@ -45,6 +45,60 @@ For users that are not in a distressed situation, the website should also addres
 
 <h2>Testing</h2>
 
+<p>
+This site was thouroughly tested manually, please find below the details of the testing. The main user story for this website would be the following: a prospective customer would like to have information on the services provided by the clinic, be able to locate the clinic and contact them easily.
+</p>
+
+<p>
+
+<br>The navigation bar enables to click any section of this single page website. The navigation bar style succesfully changes according to the section the user hits while scrolling. The user can also click on the section to be redirected to the corresponding section. There is also the possibility to change the language to French (or English). 
+When clicking on the logo at the top left side of the navigation bar the user is redirected succesfully to the index page. This navigation bar changes to a collapsable bar with a hamburger button on smaller devices to ensure better responsiveness, this was done using bootstrap. 
+
+<br> The section "services" gives information about all the services provided at the clinic, then, the "doctor" section provides information about the vet, a picture with a short description as well as a detailed timeline of her cursus.
+In the "About Us" section, all the information regarding the emergency services and consultations are provided. It is possible to call or send an email by clicking on the anchor, it will automatically trigger the default application to call or send an email directly from the device.
+It is also possible to check the address by clicking on the "Check Maps", this link redirects the user to a google maps snippet so that the user can locate the clinic. It is then possible to get back by clicking on the button "back" below the map which prevents the user from having to use the browser arrow (which would be a poor user experience).
+The user has the possibility to request an appointment online, by clicking this button, a module form pops and the user is invited to enter his/her personal information so that the clinic can get in touch. The purpose is to improve that functionality later on so that it is more interactive and the user can directly book an appointment online according to the availabilities. 
+It is also possible to contact the clinic for more general purposes (partnership, business purposes etc...) through a contact form in the "Contact Us" section. 
+The contact form as well as the module form are set up so that the form cannot be submitted (error message) if:
+ <ul>
+  <li> the email is not in the correct format </li>
+  <li> the phone does not contain only number</li>
+</ul>
+
+<br>The footer is a reminder of key information to contact and get information on the clinic. As it was done in the "About Us" section, by clicking the email and phone anchor, it will automatically trigger an email or a call from the device.  
+By clicking the two glyphicons of twitter and facebook, a new tab (by using the attribute 'target="_blank"') opens which redirects the user to the corresponding social media page. Please note that it is purposely redirecting to the main page of the social media as there are no pages created for the clinic yet (since this is a hypotehtical clinic at the moment). 
+
+</p>
+
+<p>
+Compatibility & Responsiveness 
+
+This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
+<ul>
+  <li> Safari </li>
+  <li> Google Chrome</li>
+  <li> Mozilla Firefox </li>
+  <li> Internet Explorer </li>
+  <li> Opera </li>
+</ul>
+
+I also was able to test the responsiveness of the webiste by testing it directly on my Phone (Huawei P9 Lite) and thanks to Chrome Developer tool, I tested my website on the following devices:
+<li> Galaxy S5 </li>
+  <li> Pixel 2 </li>
+  <li> Pixel 2 XL </li>
+  <li> iPhone 5/SE </li>
+  <li> iPhone 6/7/8 </li>
+  <li> iPhone 6/7/8 Plus </li>
+  <li> iPhone X </li>
+  <li> iPad </li>
+  <li> iPad Pro </li>
+
+Following this testing, I realised that the "About Us" section was not rendering well. 
+Indeed at first, I added "overflow: auto" but this was a poor user experience for devices when scrolling this section. 
+So I added media-queries to resize the info boxes of this section so that they would all fit in the (picture) background. 
+
+</p>
+
 <h2>Deployment</h2>
 This site is hosted using GitHub and directly deployed using the master branch with a unique contributor being myself. <br><br>
 You can access to my deployed website through the following <a target="_blank" href="https://alexiadelorme.github.io/project-clinic/index.html">link</a>. <br><br>
@@ -68,11 +122,11 @@ The content was entirely written by myself and reviewed by my sister regarding t
   <li>In terms of general structure of my project I received inspiration mostly from the Sample Project (Grade 5) – Portfolio of Hayley Schaffer. </li>
   <li> Regarding the background positioning, I used the recommendations provided in this link: <a target="_blank" href="https://css-tricks.com/perfect-full-page-background-image/">https://css-tricks.com/perfect-full-page-background-image/</a>. </li>
   <li>The implementation of my carousel was done thanks to the tutorial provided by W3 Schools: <a target="_blank" href="https://www.w3schools.com/bootstrap/bootstrap_carousel.asp">https://www.w3schools.com/bootstrap/bootstrap_carousel.asp</a>. </li>
-  <li> In terms of general layout I received inspiration mostly from this website – especially the use of the classy blue font-color : <a target="_blank" href="http://athospartners.com">http://athospartners.com</a>.</li>
+  <li> In terms of general layout I received inspiration mostly from the website of <li> <a target="_blank" href="https://www.veterinaire-alliance.fr/ ">this clinic</a></li> located in France as well as this webiste (especially the use of the classy blue font-color) : <a target="_blank" href="http://athospartners.com">http://athospartners.com</a>.</li>
   <li>In terms of benchmark I also researched websites of clinics located in France (and specialized in Emergency Services). I was therefore able to structure my content after studying the following websites:
     <ul>
+    <li> <a target="_blank" href="https://www.fregis.com">https://www.fregis.com</a></li>
    <li> <a target="_blank" href="http://www.urgences-veterinaires-delta-06.fr/ ">http://www.urgences-veterinaires-delta-06.fr/</a></li>
-   <li> <a target="_blank" href="https://www.fregis.com">https://www.fregis.com</a></li>
     </ul>
   </li>
   <li>For the “Doctor” section, I built the timeline (without almost any modifications as it rendered pretty well on my section) by using the code implemented during the Mini Project (building a CV website) at the end of the User Centric module. </li>
